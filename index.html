@@ -12,7 +12,7 @@
 <body>
 	<!-- Encabezado de la página -->
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light  bg-dark">
+		<nav class="navbar navbar-expand-lg navbar-light  bg-dark" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu"
@@ -24,10 +24,12 @@
 				<!--Menu -->
 				<div class="collapse navbar-collapse" id="menu">
 					<ul class="navbar-nav text-white">
-						<li class="nav-item active"><a class="nav-link text-white" href="#">Trabajos Individuales <span
-									class="sr-only">(current)</span></a></li>
-						<li class="nav-item"><a class="nav-link text-white" href="#">Trabajos Grupales</a></li>
-						<li class="nav-item"><a class="nav-link text-white" href="#">Evaluación en Línea</a></li>
+						<li class="nav-item active"><a class="nav-link text-white" id="menu_1" href="#">Trabajos
+								Individuales <span class="sr-only">(current)</span></a></li>
+						<li class="nav-item"><a class="nav-link text-white" id="menu_2" href="#">Trabajos Grupales</a>
+						</li>
+						<li class="nav-item"><a class="nav-link text-white" id="menu_3" href="#">Evaluación en Línea</a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -42,7 +44,8 @@
 	</section>
 	<!-- Todo el contenido -->
 	<section class="main container">
-		<div class="container">
+		<!-- Contenido de los trabajos individuales-->
+		<div class="container menu_1">
 			<h3>Explicación</h3>
 			<p class="parrafo">Documentos de las diferentes fase de los trabajos que se hicieron individualmente.</p>
 			<div id="accordion">
@@ -62,63 +65,74 @@
 							<div class="col col-3 mb-4">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/excel.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/excel.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
-									  <h5 class="card-title">Presentado por</h5>
-									  <p class="card-text">Juan Carlos vargas </p>
-									  <a href="https://drive.google.com/file/d/14t0_DiiTpzy7LH-5ZFTUjmrK4GekerIq/view?usp=sharing" target="_blank"  class="btn btn-primary">Ver</a>
+										<h5 class="card-title">Presentado por</h5>
+										<p class="card-text">Juan Carlos vargas </p>
+										<a href="https://drive.google.com/file/d/14t0_DiiTpzy7LH-5ZFTUjmrK4GekerIq/view?usp=sharing"
+											target="_blank" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
 							</div>
 							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/excel.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/excel.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
-									  <h5 class="card-title">Presentado por</h5>
-									  <p class="card-text">Nombre</p>
-									  <a href="#" class="btn btn-primary">Ver</a>
+										<h5 class="card-title">Presentado por</h5>
+										<p class="card-text">Tema</p>
+										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
 							</div>
 							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/excel.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/excel.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
-									  <h5 class="card-title">Presentado por</h5>
-									  <p class="card-text">Nombre</p>
-									  <a href="#" class="btn btn-primary">Ver</a>
+										<h5 class="card-title">Presentado por</h5>
+										<p class="card-text">Tema</p>
+										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
 							</div>
-						</div>	
+						</div>
 						<br>
 						<div class="row justify-content-md-center text-center">
-							<div class="col col-3 ml-3"  >
+							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/excel.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/excel.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
-									  <h5 class="card-title">Presentado por</h5>
-									  <p class="card-text">Nombre</p>
-									  <a href="#" class="btn btn-primary">Ver</a>
+										<h5 class="card-title">Presentado por</h5>
+										<p class="card-text">Tema</p>
+										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
 							</div>
 							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/excel.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/excel.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
-									  <h5 class="card-title">Presentado por</h5>
-									  <p class="card-text">Nombre</p>
-									  <a href="#" class="btn btn-primary">Ver</a>
+										<h5 class="card-title">Presentado por</h5>
+										<p class="card-text">Tema</p>
+										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
 							</div>
@@ -140,11 +154,28 @@
 							<div class="col col-3 ml-3">
 								<div class="card bg-light info " style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
 										<p class="card-text">Juan Carlos Vargas</p>
+										<a href="https://drive.google.com/file/d/1sLDUWFOu52GJvoY6FMFXouRLdVPsEEzg/view?usp=sharing"
+											target="_blank" class="btn btn-primary">Ver</a>
+									</div>
+								</div>
+							</div>
+							<div class="col col-3 ml-3">
+								<div class="card bg-light info" style="width: 18rem;">
+									<div class="card-header">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
+									</div>
+									<div class="card-body bg-info">
+										<h5 class="card-title">Presentado por</h5>
+										<p class="card-text">Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
@@ -152,38 +183,30 @@
 							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text">Nombre</p>
+										<p class="card-text">Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
 							</div>
-							<div class="col col-3 ml-3">
-								<div class="card bg-light info" style="width: 18rem;">
-									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
-									</div>
-									<div class="card-body bg-info">
-										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text">Nombre</p>
-										<a href="#" class="btn btn-primary">Ver</a>
-									</div>
-								</div>
-							</div>
-						</div>	
+						</div>
 						<br>
 						<div class="row justify-content-md-center text-center text-center">
-							<div class="col col-3 ml-3"  >
+							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text">Nombre</p>
+										<p class="card-text">Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
@@ -191,11 +214,13 @@
 							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text">Nombre</p>
+										<p class="card-text">Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
@@ -218,11 +243,28 @@
 							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
 										<p class="card-text">Juan Carlos Vargas</p>
+										<a href="https://drive.google.com/file/d/1JE8NbB96M_12grBZjOHRaBslmlN4t5iZ/view?usp=sharing"
+											target="_blank" class="btn btn-primary">Ver</a>
+									</div>
+								</div>
+							</div>
+							<div class="col col-3 ml-3">
+								<div class="card bg-light info" style="width: 18rem;">
+									<div class="card-header">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
+									</div>
+									<div class="card-body bg-info">
+										<h5 class="card-title">Presentado por</h5>
+										<p class="card-text">Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
@@ -230,38 +272,30 @@
 							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text">Nombre</p>
+										<p class="card-text">Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
 							</div>
-							<div class="col col-3 ml-3">
-								<div class="card bg-light info" style="width: 18rem;">
-									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
-									</div>
-									<div class="card-body bg-info">
-										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text">Nombre</p>
-										<a href="#" class="btn btn-primary">Ver</a>
-									</div>
-								</div>
-							</div>
-						</div>	
+						</div>
 						<br>
 						<div class="row justify-content-md-center text-center text-center">
-							<div class="col col-3 ml-3"  >
+							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text">Nombre</p>
+										<p class="card-text">Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
@@ -269,11 +303,13 @@
 							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text">Nombre</p>
+										<p class="card-text">Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
@@ -296,11 +332,28 @@
 							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
 										<p class="card-text">Juan Carlos Vargas</p>
+										<a href="https://drive.google.com/drive/folders/1DutiPc5y_C77J9c-RI13dFeKrevsZIgy?usp=sharing"
+											target="_blank" class="btn btn-primary">Ver</a>
+									</div>
+								</div>
+							</div>
+							<div class="col col-3 ml-3">
+								<div class="card bg-light info" style="width: 18rem;">
+									<div class="card-header">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
+									</div>
+									<div class="card-body bg-info">
+										<h5 class="card-title">Presentado por</h5>
+										<p class="card-text">Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
@@ -308,38 +361,30 @@
 							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text">Nombre</p>
+										<p class="card-text">Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
 							</div>
-							<div class="col col-3 ml-3">
-								<div class="card bg-light info" style="width: 18rem;">
-									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
-									</div>
-									<div class="card-body bg-info">
-										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text">Nombre</p>
-										<a href="#" class="btn btn-primary">Ver</a>
-									</div>
-								</div>
-							</div>
-						</div>	
+						</div>
 						<br>
 						<div class="row justify-content-md-center text-center text-center">
-							<div class="col col-3 ml-3"  >
+							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text">Nombre</p>
+										<p class="card-text">Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
@@ -347,11 +392,13 @@
 							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text">Nombre</p>
+										<p class="card-text">Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
@@ -369,18 +416,35 @@
 							</button>
 						</h5>
 					</div>
-					
+
 					<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
 						<br>
 						<div class="row justify-content-md-center text-center">
 							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
 										<p class="card-text">Juan Carlos Vargas</p>
+										<a href="https://drive.google.com/file/d/1pzuVUfEZncHQvJ1q98T8u5q7oYVBFoCi/view?usp=sharing"
+											target="_blank" class="btn btn-primary">Ver</a>
+									</div>
+								</div>
+							</div>
+							<div class="col col-3 ml-3">
+								<div class="card bg-light info" style="width: 18rem;">
+									<div class="card-header">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
+									</div>
+									<div class="card-body bg-info">
+										<h5 class="card-title">Presentado por</h5>
+										<p class="card-text">Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
@@ -388,38 +452,30 @@
 							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text">Nombre</p>
+										<p class="card-text">Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
 							</div>
-							<div class="col col-3 ml-3">
-								<div class="card bg-light info" style="width: 18rem;">
-									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
-									</div>
-									<div class="card-body bg-info">
-										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text">Nombre</p>
-										<a href="#" class="btn btn-primary">Ver</a>
-									</div>
-								</div>
-							</div>
-						</div>	
+						</div>
 						<br>
 						<div class="row justify-content-md-center text-center">
-							<div class="col col-3 ml-3"  >
+							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text"> Nombre</p>
+										<p class="card-text"> Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
@@ -427,11 +483,13 @@
 							<div class="col col-3 ml-3">
 								<div class="card bg-light info" style="width: 18rem;">
 									<div class="card-header">
-										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180" style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png" data-holder-rendered="true">
+										<img class="card-img-top" data-src="holder.js/100px180/" alt="100%x180"
+											style="height: 180px; width: 100%; display: block;" src="imagen/pdf.png"
+											data-holder-rendered="true">
 									</div>
 									<div class="card-body bg-info">
 										<h5 class="card-title">Presentado por</h5>
-										<p class="card-text">Nombre</p>
+										<p class="card-text">Tema</p>
 										<a href="#" class="btn btn-primary">Ver</a>
 									</div>
 								</div>
@@ -442,20 +500,100 @@
 				</div>
 			</div>
 		</div>
+		<!-- Contenido de los trabajos iGrupales-->
+		<div class="container menu_2">
+			<h3>Explicación</h3>
+			<p class="parrafo">Documentos de las diferentes fase de los trabajos Colaborativos.</p>
+			<div class="container-list">
+				<div class="list" id="list">
 
+					<!-- ? Fase #2 -->
+					<div class="Fase">
+						<div class="foto">
+							<p class="label">Fase</p>
+							<img src="imagen/2.png" alt="">
+						</div>
+						<div class="Tema">
+							<p class="label">Tema</p>
+							<p class="dato">Propuesta Inicial</p>
+						</div>
+						<div class="ver">
+							<p class="label">Ver Documento</p>
+							<a href="https://drive.google.com/file/d/1fxSSrADdlI6CMi_Kng5FXZ2a2GLMdWyH/view?usp=sharing"
+							target="_blank" class="btn btn-primary">Ver</a>
+						</div>
+					</div>
+
+					<!-- ? Fase #3 -->
+					<div class="Fase">
+						<div class="foto">
+							<p class="label">Fase</p>
+							<img src="imagen/3.png" alt="">
+						</div>
+						<div class="Tema">
+							<p class="label">Tema</p>
+							<p class="dato">Avance de la propuesta</p>
+						</div>
+						<div class="ver">
+							<p class="label">Ver Documento</p>
+							<a href="https://drive.google.com/file/d/1Z0x2aHcCBkIXNmHIkPsgz0oLuc8Pfl5p/view?usp=sharing"
+							target="_blank" class="btn btn-primary">Ver</a>
+						</div>
+					</div>
+
+					<!-- ? Fase #4 -->
+					<div class="Fase">
+						<div class="foto">
+							<p class="label">Fase</p>
+							<img src="imagen/4.png" alt="">
+						</div>
+						<div class="Tema">
+							<p class="label">Tema</p>
+							<p class="dato">Propuesta Ampliada</p>
+						</div>
+						<div class="ver">
+							<p class="label">Ver Documento</p>
+							<a href="https://drive.google.com/drive/folders/1ct6o9RfmL6vZXhOcxtcYrnXM6nmADGvO?usp=sharing"
+							target="_blank" class="btn btn-primary">Ver</a>
+						</div>
+					</div>
+					<div class="Fase">
+						<div class="foto">
+							<p class="label">Fase</p>
+							<img src="imagen/5.png" alt="">
+						</div>
+						<div class="Tema">
+							<p class="label">Tema</p>
+							<p class="dato">Evaluación final por proyecto</p>
+						</div>
+						<div class="ver">
+							<p class="label">Ver Documento</p>
+							<a href="https://drive.google.com/file/d/14t0_DiiTpzy7LH-5ZFTUjmrK4GekerIq/view?usp=sharing"
+							target="_blank" class="btn btn-primary">Ver</a>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!-- Contenido de la evaluacion -->
+			<div class="container menu_3">
+				<h3>Explicación</h3>
+				<p class="parrafo">Enlace de la evaluación en línea.</p>
+			</div>
 
 	</section>
 	<!-- Footer del blog-->
 	<br>
 	<footer class="py-4 bg-dark flex-shrink-0">
 		<div class="container text-center">
-		  <a href="https://bootstrapious.com/snippets" class="text-muted">Copyright 2020</a>
+			<a href="https://bootstrapious.com/snippets" class="text-muted">Copyright 2020</a>
 		</div>
 	</footer>
-  	<!-- Footer -->
+	<!-- Footer -->
 	<!-- Js -->
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 
 </html>
